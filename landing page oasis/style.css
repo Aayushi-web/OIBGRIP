@@ -4,20 +4,27 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
 nav{
+    width: 100vw;
+   
  display: flex;   
- background:-moz-radial-gradient(circle at 50% 50%, rgba(0, 212, 196, 1) 0%, rgba(255, 255, 0, 1) 37%, rgba(238, 130, 238, 1) 100%);
+/* ff 3.6+ */
+background:-moz-linear-gradient(90deg, rgba(43, 43, 41, 1) 0%, rgba(102, 118, 120, 1) 50%, rgba(130, 184, 238, 0.84) 100%); 
 
-    /* safari 5.1+,chrome 10+ */
-    background:-webkit-radial-gradient(circle at 50% 50%, rgba(0, 212, 196, 1) 0%, rgba(255, 255, 0, 1) 37%, rgba(238, 130, 238, 1) 100%);
+/* safari 5.1+,chrome 10+ */
+background:-webkit-linear-gradient(90deg, rgba(43, 43, 41, 1) 0%, rgba(102, 118, 120, 1) 50%, rgba(44, 140, 236, 0.84) 100%);
 
-    /* opera 11.10+ */
-    background:-o-radial-gradient(circle at 50% 50%, rgba(0, 212, 196, 1) 0%, rgba(255, 255, 0, 1) 37%, rgba(238, 130, 238, 1) 100%);
+/* opera 11.10+ */
+background:-o-linear-gradient(90deg, rgba(43, 43, 41, 1) 0%, rgba(102, 118, 120, 1) 50%, rgba(130, 184, 238, 0.84) 100%);
 
-    /* ie 10+ */
-    background:-ms-radial-gradient(circle at 50% 50%, rgba(0, 212, 196, 1) 0%, rgba(255, 255, 0, 1) 37%, rgba(238, 130, 238, 1) 100%);
+/* ie 6-9 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82B8EE', endColorstr='#2B2B29', GradientType=0 );
 
-    /* global 92%+ browsers support */
-    background:radial-gradient(circle at 50% 50%, rgba(0, 212, 196, 1) 0%, rgba(255, 255, 0, 1) 37%, rgba(238, 130, 238, 1) 100%);
+/* ie 10+ */
+background:-ms-linear-gradient(90deg, rgba(43, 43, 41, 1) 0%, rgba(102, 118, 120, 1) 50%, rgba(130, 184, 238, 0.84) 100%);
+
+/* global 94%+ browsers support */
+background:linear-gradient(90deg, rgba(43, 43, 41, 1) 0%, rgba(102, 118, 120, 1) 50%, rgba(130, 184, 238, 0.84) 100%);
+
 }
 
 .logo img{
@@ -37,7 +44,7 @@ nav{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     cursor: pointer;
-    color: rgba(94, 86, 66, 0.89);
+    color: rgba(255, 255, 255, 0.89);
 }
 .sign{
     margin-left:40rem;
@@ -53,7 +60,29 @@ nav{
 }
 
 .name{
-    background-image: url("https://unbounce.com/photos/Gradient-Background.png");
+    background-image: url("https://img.freepik.com/premium-photo/product-showcase-spotlight-black-gradient-background_1258-15517.jpg");
+width: 100vw;
+height: 90vh;
+
+}
+.image img{
+    margin-left: 974px;
+    width: 31vw;
+    height: 40vh;
+    border-radius:51% 49% 44% 56% / 52% 30% 70% 48% ;;
+}
+.container h1,p{
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 7rem;
+    
+}
+ h1{
+   
+    line-height: 86px;
+}
+.container p{
+    margin-top: 79px;
 }
 
 
