@@ -1,8 +1,7 @@
 # OIBGRIP
    # you can see their in my site( https://aayushi-web.github.io/OIBGRIP/)
 # Ui ux landing page\
-# this is a single page with diifernt animation and creativity in one place![2023-02-11 (1)](https://user-images.githubusercontent.com/102627008/218189456-1e1d5d3b-7e06-44d8-9493-eb4243d1c32f.png)
-
+# this is a single page with diifernt animation and creativity in one place![2023-02-11 (1)]
 
 
 this is my logo(self made)
