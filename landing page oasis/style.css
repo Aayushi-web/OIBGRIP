@@ -2,6 +2,13 @@
     padding: 0;
     margin: 0;
 }
+:root {
+    --blue: rgb(18 59 96);
+    --indigo: rgb(102 16 242);
+    --purple: rgb(111 66 193);
+    --pink: rgb(249 57 139);
+
+  }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
 
@@ -92,6 +99,7 @@ p {
 
 }
 
+
 h1 {
 
     line-height: 86px;
@@ -159,22 +167,19 @@ h1 {
 .cont h1 {
 
     /* ff 3.6+ */
-    background: -moz-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background:-moz-radial-gradient(ellipse at 49% 57%, rgba(0, 0, 0, 1) 0%, rgba(106, 100, 100, 1) 97%);
 
     /* safari 5.1+,chrome 10+ */
-    background: -webkit-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background:-webkit-radial-gradient(ellipse at 49% 57%, rgba(0, 0, 0, 1) 0%, rgba(106, 100, 100, 1) 97%);
 
     /* opera 11.10+ */
-    background: -o-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
-
-    /* ie 6-9 */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2E2727', endColorstr='#272535', GradientType=0);
+    background:-o-radial-gradient(ellipse at 49% 57%, rgba(0, 0, 0, 1) 0%, rgba(106, 100, 100, 1) 97%);
 
     /* ie 10+ */
-    background: -ms-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background:-ms-radial-gradient(ellipse at 49% 57%, rgba(0, 0, 0, 1) 0%, rgba(106, 100, 100, 1) 97%);
 
-    /* global 94%+ browsers support */
-    background: linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    /* global 92%+ browsers support */
+    background:radial-gradient(ellipse at 49% 57%, rgba(0, 0, 0, 1) 0%, rgba(106, 100, 100, 1) 97%);
     text-align: center;
     color: antiquewhite;
     font-family: 'Poppins', sans-serif;
@@ -182,9 +187,10 @@ h1 {
     font-style: oblique;
 }
 
-body {
-    background: url("https://miro.medium.com/max/1400/1*XC83ro6IYTu4kC4VOtA7aw.jpeg");
-}
+ body {
+    background: url("https://img.freepik.com/premium-photo/product-showcase-spotlight-black-gradient-background_1258-15517.jpg");
+    
+} 
 
 .head1 {
     display: flex;
@@ -194,7 +200,55 @@ body {
     color: antiquewhite;
     text-align: center;
     /* ff 3.6+ */
-    background: -moz-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background:-moz-radial-gradient(ellipse at 49% 57%, rgba(0, 0, 0, 1) 0%, rgba(106, 100, 100, 1) 97%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(ellipse at 49% 57%, rgba(0, 0, 0, 1) 0%, rgba(106, 100, 100, 1) 97%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(ellipse at 49% 57%, rgba(0, 0, 0, 1) 0%, rgba(106, 100, 100, 1) 97%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(ellipse at 49% 57%, rgba(0, 0, 0, 1) 0%, rgba(106, 100, 100, 1) 97%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(ellipse at 49% 57%, rgba(0, 0, 0, 1) 0%, rgba(106, 100, 100, 1) 97%);
+}
+
+.ui img {
+
+    width: 37vw;
+    margin-left: 112px;
+    margin-top: 47px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.service {
+    background: url("https://img.freepik.com/premium-photo/product-showcase-spotlight-black-gradient-background_1258-15517.jpg");
+}
+p.p1{
+    
+    
+margin-left: 0rem;
+text-align: center;
+margin-top: 77px;
+}
+.img1 img{
+    color: aliceblue;
+}
+
+
+
+
+.footer{
+
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+.bottom-container{
+  max-width: 1170px;
+   background: -moz-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
 
     /* safari 5.1+,chrome 10+ */
     background: -webkit-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
@@ -210,15 +264,64 @@ body {
 
     /* global 94%+ browsers support */
     background: linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+  margin: auto;
+}
+.footer-col{
+  margin: 20px;
+  width: 20%;
+  padding: 70px 0;
+}
+ div .social ul{
+
+  display: flex;
+ margin: 2px;
+
+  list-style: none;
+
+}
+.footer-col ul li{
+list-style: none;
+
+
+}
+.social img{
+  width: 30px;
+  height: 20px;
 }
 
-.ui img {
 
-    width: 37vw;
-    margin-left: 112px;
-    border-radius: 5px 5px 5px 5px;
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 149px;
 }
-
-.service {
-    background: url("https://img.freepik.com/premium-photo/product-showcase-spotlight-black-gradient-background_1258-15517.jpg");
+.footer-col ul li a{
+ font-size: 16px;
+ text-transform: capitalize;
+ color: #ffffff;
+ text-decoration: none;
+ font-weight: 300;
+color: #ffffff;  
+}
+.footer-col h4{
+  font-size: larger;
+  color:rgb(251, 229, 234);
+  text-transform: capitalize;
+  margin-bottom: 30px;
+ font-family:  Roboto,Arial,sans-serif;
+ position:relative ;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(230, 13, 176);
+    height: 5px;
+    box-sizing: border-box;
+    width: 57px;
+    border-radius: 24px;
+}
+.footer-col ul li a{
+  text-decoration: none;
 }
