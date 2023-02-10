@@ -1,46 +1,50 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
-nav{
+
+nav {
     width: 100vw;
-   
- display: flex;   
-/* ff 3.6+ */
+
+    display: flex;
+    /* ff 3.6+ */
 
     /* ff 3.6+ */
-    background:-moz-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%); 
+    background: -moz-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
 
     /* opera 11.10+ */
-    background:-o-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background: -o-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
 
     /* ie 6-9 */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E2727', endColorstr='#272535', GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2E2727', endColorstr='#272535', GradientType=0);
 
     /* ie 10+ */
-    background:-ms-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background: -ms-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
 
     /* global 94%+ browsers support */
-    background:linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background: linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
 
 }
 
-.logo img{
+.logo img {
     width: 7rem;
     height: 3rem;
     margin-left: 3rem;
     margin-top: 2rem;
     cursor: pointer;
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
 }
-.navbar ul li{
-    margin-left:2rem;
+
+.navbar ul li {
+    margin-left: 2rem;
     list-style: none;
     margin-top: 2.5rem;
     font-family: 'Poppins', sans-serif;
@@ -48,47 +52,57 @@ nav{
     cursor: pointer;
     color: rgba(255, 255, 255, 0.89);
 }
-.sign{
-    margin-left:40rem;
-        margin-top: 2.5rem;
-        font-family: 'Poppins', sans-serif;
-        cursor: pointer;
+
+.sign {
+    margin-left: 40rem;
+    margin-top: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    color: antiquewhite;
 }
-.login{
+
+.login {
     margin-left: 3rem;
     margin-top: 2.5rem;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
+    color: antiquewhite;
 }
 
-.name{
+.name {
     background-image: url("https://img.freepik.com/premium-photo/product-showcase-spotlight-black-gradient-background_1258-15517.jpg");
-width: 100vw;
-height: 90vh;
+    width: 100vw;
+    height: 90vh;
 
 }
-.image img{
+
+.image img {
     margin-left: 974px;
     width: 31vw;
     height: 40vh;
-    border-radius:51% 49% 44% 56% / 52% 30% 70% 48% ;;
+    border-radius: 51% 49% 44% 56% / 52% 30% 70% 48%;
+    ;
 }
-.container h1,p{
+
+.container h1,
+p {
     color: aliceblue;
     font-family: 'Poppins', sans-serif;
     margin-left: 7rem;
-    
+
 }
- h1{
-   
+
+h1 {
+
     line-height: 86px;
 }
-.container p{
+
+.container p {
     margin-top: 79px;
 }
 
 
-.grid-cont{
+.grid-cont {
     background-image: url("https://img.freepik.com/premium-photo/product-showcase-spotlight-black-gradient-background_1258-15517.jpg");
     width: 100vw;
     height: 70vh;
@@ -98,22 +112,25 @@ height: 90vh;
     overflow: hidden;
 }
 
-.slider{
-   position: relative;
-   width: 200px;
-   height: 200px;
-   transform-style: preserve-3d; 
-   animation: rotate 30s linear infinite; 
+.slider {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 30s linear infinite;
 }
+
 @keyframes rotate {
-  0%{
-    transform: perspective(1000px) rotateY(0deg);
-  }  
-  100%{
-    transform: perspective(1000px) rotateY(360deg);
-  }
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
 }
-.slider span{
+
+.slider span {
     position: absolute;
     top: 0;
     left: 0;
@@ -123,8 +140,8 @@ height: 90vh;
     transform-style: preserve-3d;
     transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
 }
- 
-.slider span img{
+
+.slider span img {
     position: absolute;
     top: 0;
     left: 0;
@@ -132,59 +149,76 @@ height: 90vh;
     height: 100%;
     border-radius: 100px;
     object-fit: cover;
-    transition:2s ;
+    transition: 2s;
 }
-.slider span:hover img{
-transform: translateY(-50px) scale(1.2);
+
+.slider span:hover img {
+    transform: translateY(-50px) scale(1.2);
 }
-.cont h1{
-   
+
+.cont h1 {
+
     /* ff 3.6+ */
-    background:-moz-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%); 
+    background: -moz-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
 
     /* opera 11.10+ */
-    background:-o-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background: -o-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
 
     /* ie 6-9 */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E2727', endColorstr='#272535', GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2E2727', endColorstr='#272535', GradientType=0);
 
     /* ie 10+ */
-    background:-ms-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background: -ms-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
 
     /* global 94%+ browsers support */
-    background:linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background: linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
     text-align: center;
     color: antiquewhite;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-style: oblique;
 }
-body{
+
+body {
     background: url("https://miro.medium.com/max/1400/1*XC83ro6IYTu4kC4VOtA7aw.jpeg");
 }
-.head1{
+
+.head1 {
     display: flex;
 }
-.head h1{
-    
+
+.head h1 {
+    color: antiquewhite;
+    text-align: center;
     /* ff 3.6+ */
-    background:-moz-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%); 
+    background: -moz-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
 
     /* safari 5.1+,chrome 10+ */
-    background:-webkit-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
 
     /* opera 11.10+ */
-    background:-o-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background: -o-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
 
     /* ie 6-9 */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2E2727', endColorstr='#272535', GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2E2727', endColorstr='#272535', GradientType=0);
 
     /* ie 10+ */
-    background:-ms-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background: -ms-linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
 
     /* global 94%+ browsers support */
-    background:linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+    background: linear-gradient(90deg, rgba(39, 37, 53, 1) 0%, rgba(46, 39, 39, 0.63) 100%);
+}
+
+.ui img {
+
+    width: 37vw;
+    margin-left: 112px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.service {
+    background: url("https://img.freepik.com/premium-photo/product-showcase-spotlight-black-gradient-background_1258-15517.jpg");
 }
